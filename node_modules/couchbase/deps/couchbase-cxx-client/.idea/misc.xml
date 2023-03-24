@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="CidrRootsConfiguration">
+    <sourceRoots>
+      <file path="$PROJECT_DIR$/core" />
+      <file path="$PROJECT_DIR$/couchbase" />
+      <file path="$PROJECT_DIR$/examples" />
+      <file path="$PROJECT_DIR$/private" />
+      <file path="$PROJECT_DIR$/tools" />
+      <file path="$PROJECT_DIR$/transactions" />
+    </sourceRoots>
+    <libraryRoots>
+      <file path="$PROJECT_DIR$/third_party" />
+    </libraryRoots>
+    <excludeRoots>
+      <file path="$PROJECT_DIR$/build" />
+      <file path="$PROJECT_DIR$/cmake-build-debug" />
+      <file path="$PROJECT_DIR$/cmake-build-debug-system-gcc" />
+    </excludeRoots>
+  </component>
+</project>

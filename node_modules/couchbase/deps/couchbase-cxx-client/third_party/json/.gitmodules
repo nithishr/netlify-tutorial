@@ -1,0 +1,4 @@
+[submodule "external/PEGTL"]
+	path = external/PEGTL
+	url = https://github.com/couchbasedeps/PEGTL
+	branch = 3.x-couchbase
