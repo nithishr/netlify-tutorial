@@ -6,10 +6,13 @@ const USERNAME = process.env.COUCHBASE_USERNAME;
 const PASSWORD = process.env.COUCHBASE_PASSWORD;
 
 const couchbaseClientPromise = couchbase.connect(
-  "couchbases://" + ENDPOINT + "?tls_verify=none",
+  "couchbases://" + ENDPOINT,
   {
     username: USERNAME,
     password: PASSWORD,
+    timeouts: {
+      kvTimeout: 10000, // milliseconds
+    },
   }
 );
 

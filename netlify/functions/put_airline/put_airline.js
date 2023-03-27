@@ -7,10 +7,13 @@ const PASSWORD = process.env.COUCHBASE_PASSWORD;
 const BUCKET = process.env.COUCHBASE_BUCKET;
 
 const couchbaseClientPromise = couchbase.connect(
-  "couchbases://" + ENDPOINT + "?tls_verify=none",
+  "couchbases://" + ENDPOINT,
   {
     username: USERNAME,
     password: PASSWORD,
+    timeouts: {
+      kvTimeout: 10000, // milliseconds
+    },
   }
 );
 
