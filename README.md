@@ -1,6 +1,6 @@
 # Quickstart for using Couchbase Capella with Netlify
 
-This is a companion repository to the tutorial: "[Quickstart for using Couchbase with Netlify](https://developer.couchbase.com/tutorial-quickstart-netlify/)" at [developer.couchbase.com](https://developer.couchbase.com), which aims to get you up and running with Couchbase on [NextJS](https://nextjs.org/), connect to a Couchbase cluster, create, read, update, and delete documents, and how to write simple parameterized N1QL queries. It also covers creating a basic front-end using Next.js.
+This is a companion repository to the tutorial: "[Quickstart for using Couchbase with Netlify](https://developer.couchbase.com/tutorial-quickstart-netlify/)" at [developer.couchbase.com](https://developer.couchbase.com), which aims to get you up and running with Couchbase on Netlify
 
 ## Prerequisites
 
