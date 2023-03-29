@@ -42,7 +42,7 @@
       body: JSON.stringify({ country: country }),
     });
 
-    location.reload(); // not great, but we don't have any UI state management
+    location.reload();
   }
 
   (async () => {
@@ -50,7 +50,6 @@
       let results = await fetch("/.netlify/functions/get_airlines");
       let parsedResults = await results.json();
 
-      // TODO: simplify the list here -> lets try a flexbox grid maybe?
       parsedResults.rows.forEach((result) => {
         const listItem = document.createElement("li");
         listItem.innerText = result.airline.name;

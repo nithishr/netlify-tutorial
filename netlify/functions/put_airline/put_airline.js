@@ -31,7 +31,6 @@ const handler = async (event) => {
     const scope = bucket.scope("inventory");
     const collection = scope.collection("airline");
 
-    // NOTE: we could also populate this document by fetching an ID to update to make it more dynamic
     const modifiedAirline = {
       callsign: "MILE-AIR",
       country: JSON.parse(event.body).country,
