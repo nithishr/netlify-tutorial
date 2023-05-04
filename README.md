@@ -1,5 +1,7 @@
 # Quickstart for using Couchbase Capella with Netlify
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/couchbase-examples/netlify-tutorial)
+
 This is a companion repository to the tutorial: "[Quickstart for using Couchbase with Netlify](https://developer.couchbase.com/tutorial-quickstart-netlify/)" at [developer.couchbase.com](https://developer.couchbase.com), which aims to get you up and running with Couchbase on Netlify
 
 ## Prerequisites
