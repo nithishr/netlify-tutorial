@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "couchbase": "^4.2.2",
+    "couchbase": "4.2.5",
     "dotenv": "^16.0.3",
     "esbuild": "^0.17.12"
   }
